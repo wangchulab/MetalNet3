@@ -1,0 +1,3 @@
+name: esmc-600M
+type: esmc
+file: esmc_600m # this requires weights file in ./.cache/huggingface

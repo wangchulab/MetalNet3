@@ -1,0 +1,8 @@
+defaults:
+  - /plm: esm2-3B
+  - /model: nn_metal_type
+  - _self_
+  
+name: metal_type
+problem_type: multiclass
+proba_cutoff: null

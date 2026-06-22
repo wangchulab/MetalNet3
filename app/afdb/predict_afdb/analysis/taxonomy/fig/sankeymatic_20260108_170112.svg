@@ -1,0 +1,101 @@
+<svg height="330" width="300" xmlns="http://www.w3.org/2000/svg">
+<title>Your Diagram Title</title>
+<!-- Generated with SankeyMATIC: 2026/1/8 17:01:12 -->
+<g transform="translate(77.27447,18)">
+<g id="sankey_flows">
+<path id="flow0" d="M12 79.46103C38.58582 79.46103 38.58582 73.90452 65.17165 73.90452" fill="none" stroke-width="135.89086" stroke="#4e79a7" opacity="0.45"><title>cellular organisms → Bacteria: 27,423,287</title></path>
+<path id="flow3" d="M77.17165 31.88609C103.75747 31.88609 103.75747 25.927 130.34329 25.927" fill="none" stroke-width="51.854" stroke="#59a14f" opacity="0.45"><title>Bacteria → Pseudomonadati: 10,464,333</title></path>
+<path id="flow4" d="M77.17165 82.88189C103.75747 82.88189 103.75747 94.6103 130.34329 94.6103" fill="none" stroke-width="50.1376" stroke="#edc949" opacity="0.45"><title>Bacteria → Bacillati: 10,117,956</title></path>
+<path id="flow2" d="M12 170.12101C38.58582 170.12101 38.58582 182.25199 65.17165 182.25199" fill="none" stroke-width="45.42908" stroke="#4e79a7" opacity="0.45"><title>cellular organisms → Eukaryota: 9,167,760</title></path>
+<path id="flow5" d="M77.17165 170.53934C103.75747 170.53934 103.75747 148.36849 130.34329 148.36849" fill="none" stroke-width="22.00377" stroke="#af7aa1" opacity="0.45"><title>Eukaryota → Metazoa: 4,440,444</title></path>
+<path id="flow6" d="M77.17165 186.89251C103.75747 186.89251 103.75747 182.40916 130.34329 182.40916" fill="none" stroke-width="10.70258" stroke="#ff9da7" opacity="0.45"><title>Eukaryota → Fungi: 2,159,820</title></path>
+<path id="flow7" d="M77.17165 196.85311C103.75747 196.85311 103.75747 210.05727 130.34329 210.05727" fill="none" stroke-width="9.21863" stroke="#9c755f" opacity="0.45"><title>Eukaryota → Viridiplantae: 1,860,354</title></path>
+<path id="flow1" d="M12 196.2554C38.58582 196.2554 38.58582 226.07388 65.17165 226.07388" fill="none" stroke-width="6.8397" stroke="#4e79a7" opacity="0.45"><title>cellular organisms → Archaea: 1,380,277</title></path>
+<path id="flow8" d="M77.17165 224.96485C103.75747 224.96485 103.75747 234.40862 130.34329 234.40862" fill="none" stroke-width="4.10907" stroke="#bab0ab" opacity="0.45"><title>Archaea → Methanobacteriati: 829,226</title></path>
+<path id="flow9" d="M77.17165 227.8869C103.75747 227.8869 103.75747 255.01817 130.34329 255.01817" fill="none" stroke-width="1.73503" stroke="#4e79a7" opacity="0.45"><title>Archaea → Thermoproteati: 350,136</title></path>
+<path id="flow10" d="M77.17165 228.96071C103.75747 228.96071 103.75747 273.77948 130.34329 273.77948" fill="none" stroke-width="1" stroke="#f28e2c" opacity="0.45"><title>Archaea → Nanobdellati: 83,263</title></path>
+<path id="flow11" d="M77.17165 229.33037C103.75747 229.33037 103.75747 291.83664 130.34329 291.83664" fill="none" stroke-width="1" stroke="#e15759" opacity="0.45"><title>Archaea → Promethearchaeati: 65,934</title></path>
+</g>
+<g id="sankey_nodes">
+<g class="node">
+<rect id="r0" class="for_r0" x="0" y="11.5156" height="188.15965" width="12" fill="#4e79a7" fill-opacity="1"><title>cellular organisms:
+37,971,324</title></rect>
+</g>
+<g class="node">
+<rect id="r1" class="for_r1" x="65.17165" y="5.95909" height="135.89086" width="12" fill="#f28e2c" fill-opacity="1"><title>Bacteria:
+27,423,287</title></rect>
+</g>
+<g class="node">
+<rect id="r2" class="for_r2" x="65.17165" y="222.65403" height="6.8397" width="12" fill="#e15759" fill-opacity="1"><title>Archaea:
+1,380,277</title></rect>
+</g>
+<g class="node">
+<rect id="r3" class="for_r3" x="65.17165" y="159.53745" height="45.42908" width="12" fill="#76b7b2" fill-opacity="1"><title>Eukaryota:
+9,167,760</title></rect>
+</g>
+<g class="node">
+<rect id="r4" class="for_r4" x="130.34329" y="0" height="51.854" width="12" fill="#59a14f" fill-opacity="1"><title>Pseudomonadati:
+10,464,333</title></rect>
+</g>
+<g class="node">
+<rect id="r5" class="for_r5" x="130.34329" y="69.5415" height="50.1376" width="12" fill="#edc949" fill-opacity="1"><title>Bacillati:
+10,117,956</title></rect>
+</g>
+<g class="node">
+<rect id="r6" class="for_r6" x="130.34329" y="137.3666" height="22.00377" width="12" fill="#af7aa1" fill-opacity="1"><title>Metazoa:
+4,440,444</title></rect>
+</g>
+<g class="node">
+<rect id="r7" class="for_r7" x="130.34329" y="177.05788" height="10.70258" width="12" fill="#ff9da7" fill-opacity="1"><title>Fungi:
+2,159,820</title></rect>
+</g>
+<g class="node">
+<rect id="r8" class="for_r8" x="130.34329" y="205.44795" height="9.21863" width="12" fill="#9c755f" fill-opacity="1"><title>Viridiplantae:
+1,860,354</title></rect>
+</g>
+<g class="node">
+<rect id="r9" class="for_r9" x="130.34329" y="232.35408" height="4.10907" width="12" fill="#bab0ab" fill-opacity="1"><title>Methanobacteriati:
+829,226</title></rect>
+</g>
+<g class="node">
+<rect id="r10" class="for_r10" x="130.34329" y="254.15065" height="1.73503" width="12" fill="#4e79a7" fill-opacity="1"><title>Thermoproteati:
+350,136</title></rect>
+</g>
+<g class="node">
+<rect id="r11" class="for_r11" x="130.34329" y="273.57318" height="0.41259" width="12" fill="#f28e2c" fill-opacity="1"><title>Nanobdellati:
+83,263</title></rect>
+</g>
+<g class="node">
+<rect id="r12" class="for_r12" x="130.34329" y="291.67328" height="0.32672" width="12" fill="#e15759" fill-opacity="1"><title>Promethearchaeati:
+65,934</title></rect>
+</g>
+</g>
+<g id="sankey_labels" font-family="sans-serif" font-size="7px" fill="#000000">
+<rect id="label0_bg" class="for_r0" x="-65.225" y="95.77043" width="64.51615" height="19.44999" rx="1.75" fill="#fff" fill-opacity="0.75" stroke="none" stroke-width="0" stroke-opacity="0"></rect>
+<text id="label0" class="for_r0" text-anchor="end" x="-3.15" y="105.59542" font-weight="400" font-size="7px" dy="-0.425">cellular organisms<tspan x="-3.15" dy="6.65" font-weight="400" font-size="7px">37,971,324</tspan></text>
+<rect id="label1_bg" class="for_r1" x="24.50915" y="64.07952" width="39.95365" height="19.45" rx="1.75" fill="#fff" fill-opacity="0.75" stroke="none" stroke-width="0" stroke-opacity="0"></rect>
+<text id="label1" class="for_r1" text-anchor="end" x="62.02165" y="73.90452" font-weight="400" font-size="7px" dy="-0.425">Bacteria<tspan x="62.02165" dy="6.65" font-weight="400" font-size="7px">27,423,287</tspan></text>
+<rect id="label2_bg" class="for_r2" x="28.39456" y="216.2489" width="36.06865" height="19.44999" rx="1.75" fill="#fff" fill-opacity="0.75" stroke="none" stroke-width="0" stroke-opacity="0"></rect>
+<text id="label2" class="for_r2" text-anchor="end" x="62.02165" y="226.07388" font-weight="400" font-size="7px" dy="-0.425">Archaea<tspan x="62.02165" dy="6.65" font-weight="400" font-size="7px">1,380,277</tspan></text>
+<rect id="label3_bg" class="for_r3" x="26.42581" y="172.427" width="38.0374" height="19.44999" rx="1.75" fill="#fff" fill-opacity="0.75" stroke="none" stroke-width="0" stroke-opacity="0"></rect>
+<text id="label3" class="for_r3" text-anchor="end" x="62.02165" y="182.25199" font-weight="400" font-size="7px" dy="-0.425">Eukaryota<tspan x="62.02165" dy="6.65" font-weight="400" font-size="7px">9,167,760</tspan></text>
+<rect id="label4_bg" class="for_r4" x="143.15995" y="16.102" width="60.91266" height="19.45" rx="1.75" fill="#fff" fill-opacity="0.75" stroke="none" stroke-width="0" stroke-opacity="0"></rect>
+<text id="label4" class="for_r4" text-anchor="start" x="145.49329" y="25.927" font-weight="400" font-size="7px" dy="-0.425">Pseudomonadati<tspan x="145.49329" dy="6.65" font-weight="400" font-size="7px">10,464,333</tspan></text>
+<rect id="label5_bg" class="for_r5" x="143.15995" y="84.7853" width="39.95367" height="19.44999" rx="1.75" fill="#fff" fill-opacity="0.75" stroke="none" stroke-width="0" stroke-opacity="0"></rect>
+<text id="label5" class="for_r5" text-anchor="start" x="145.49329" y="94.6103" font-weight="400" font-size="7px" dy="-0.425">Bacillati<tspan x="145.49329" dy="6.65" font-weight="400" font-size="7px">10,117,956</tspan></text>
+<rect id="label6_bg" class="for_r6" x="142.4933" y="138.5435" width="36.73532" height="19.44999" rx="1.75" fill="#fff" fill-opacity="0.75" stroke="none" stroke-width="0" stroke-opacity="0"></rect>
+<text id="label6" class="for_r6" text-anchor="start" x="145.49329" y="148.36849" font-weight="400" font-size="7px" dy="-0.425">Metazoa<tspan x="145.49329" dy="6.65" font-weight="400" font-size="7px">4,440,444</tspan></text>
+<rect id="label7_bg" class="for_r7" x="143.15995" y="172.58416" width="36.06865" height="19.44999" rx="1.75" fill="#fff" fill-opacity="0.75" stroke="none" stroke-width="0" stroke-opacity="0"></rect>
+<text id="label7" class="for_r7" text-anchor="start" x="145.49329" y="182.40916" font-weight="400" font-size="7px" dy="-0.425">Fungi<tspan x="145.49329" dy="6.65" font-weight="400" font-size="7px">2,159,820</tspan></text>
+<rect id="label8_bg" class="for_r8" x="142.4933" y="200.23226" width="47.32118" height="19.45001" rx="1.75" fill="#fff" fill-opacity="0.75" stroke="none" stroke-width="0" stroke-opacity="0"></rect>
+<text id="label8" class="for_r8" text-anchor="start" x="145.49329" y="210.05727" font-weight="400" font-size="7px" dy="-0.425">Viridiplantae<tspan x="145.49329" dy="6.65" font-weight="400" font-size="7px">1,860,354</tspan></text>
+<rect id="label9_bg" class="for_r9" x="143.15995" y="224.58361" width="64.76047" height="19.44999" rx="1.75" fill="#fff" fill-opacity="0.75" stroke="none" stroke-width="0" stroke-opacity="0"></rect>
+<text id="label9" class="for_r9" text-anchor="start" x="145.49329" y="234.40862" font-weight="400" font-size="7px" dy="-0.425">Methanobacteriati<tspan x="145.49329" dy="6.65" font-weight="400" font-size="7px">829,226</tspan></text>
+<rect id="label10_bg" class="for_r10" x="143.15995" y="245.19317" width="56.38287" height="19.44999" rx="1.75" fill="#fff" fill-opacity="0.75" stroke="none" stroke-width="0" stroke-opacity="0"></rect>
+<text id="label10" class="for_r10" text-anchor="start" x="145.49329" y="255.01817" font-weight="400" font-size="7px" dy="-0.425">Thermoproteati<tspan x="145.49329" dy="6.65" font-weight="400" font-size="7px">350,136</tspan></text>
+<rect id="label11_bg" class="for_r11" x="143.15995" y="263.95449" width="47.35451" height="19.44999" rx="1.75" fill="#fff" fill-opacity="0.75" stroke="none" stroke-width="0" stroke-opacity="0"></rect>
+<text id="label11" class="for_r11" text-anchor="start" x="145.49329" y="273.77948" font-weight="400" font-size="7px" dy="-0.425">Nanobdellati<tspan x="145.49329" dy="6.65" font-weight="400" font-size="7px">83,263</tspan></text>
+<rect id="label12_bg" class="for_r12" x="143.15995" y="282.01162" width="67.56557" height="19.45002" rx="1.75" fill="#fff" fill-opacity="0.75" stroke="none" stroke-width="0" stroke-opacity="0"></rect>
+<text id="label12" class="for_r12" text-anchor="start" x="145.49329" y="291.83664" font-weight="400" font-size="7px" dy="-0.425">Promethearchaeati<tspan x="145.49329" dy="6.65" font-weight="400" font-size="7px">65,934</tspan></text>
+</g>
+</g></svg>

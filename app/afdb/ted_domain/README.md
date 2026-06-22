@@ -1,0 +1,1 @@
+Domain database from `Exploring structural diversity across the protein universe with The Encyclopedia of Domains`

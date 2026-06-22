@@ -1,0 +1,16 @@
+defaults:
+  - plm: esm2-150M
+  - dataset: metal
+  - model: svm
+  - info
+  - _self_
+  - override hydra/launcher: joblib
+
+# experiment
+project_dir: ""  # override
+plm_dir: ${project_dir}/data/models
+dataset_dir: ${project_dir}/data/dataset
+fasta_dir: ${project_dir}/data/fasta
+mode: train # or tune
+seed: 42
+device: cuda:0 # or cpu, cuda:1 ..

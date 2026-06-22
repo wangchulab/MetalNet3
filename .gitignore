@@ -1,0 +1,11 @@
+*.log
+**/__pycache__
+**/tmp/
+**/tmp
+**/data/*
+**/outputs/
+**/multirun/
+
+app/afdb/_database
+model/train/models
+!data/dataset

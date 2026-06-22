@@ -1,0 +1,4 @@
+name: metal_type
+problem_type: multiclass
+train_file: metalnet_train_ched_with_type.tsv
+test_file: metalnet_test_ched_with_type.tsv

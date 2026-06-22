@@ -1,0 +1,1 @@
+Homomers data (seq_ids and pdbs) come from `An atlas of protein homo-oligomerization across domains of life`.

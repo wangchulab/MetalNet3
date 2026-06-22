@@ -1,0 +1,1 @@
+Data of human zn proteome comes from `The human zinc-binding cysteine proteome`.

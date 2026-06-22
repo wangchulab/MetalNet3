@@ -1,0 +1,5 @@
+fasta:
+  seq_file: metalnet.fasta
+  struct_file:
+    saprot: metalnet_af2_foldseek.fasta
+    prosst: metalnet_af2_prosst-2048.fasta

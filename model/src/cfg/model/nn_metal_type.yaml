@@ -1,0 +1,24 @@
+name: nn
+
+# data config
+batch_size:
+  train: 1024
+  valid: 16384
+
+# trainer config
+num_epochs: 200
+patience: 20
+learning_rate: 0.01
+weight_decay: 1e-4
+use_weighted_sampler: false
+use_ce_loss_weights: true
+focal_loss_gamma: 1.0
+eval_label: "macro avg"
+eval_metric: f1-score
+eval_metric_mode: max
+
+# model config
+num_hidden_layers: 2
+hidden_dim: 1024
+dropout: 0.3
+num_labels: 11

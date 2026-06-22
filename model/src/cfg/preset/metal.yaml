@@ -1,0 +1,8 @@
+defaults:
+  - /plm: ankh-base # instead of ankh-large, we using ankh-base for less time cost
+  - /model: svm
+  - _self_
+  
+name: metal
+problem_type: binary
+proba_cutoff: 0.2

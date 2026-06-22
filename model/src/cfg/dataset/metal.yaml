@@ -1,0 +1,4 @@
+name: metal
+problem_type: binary
+train_file: metalnet_train_ched.tsv
+test_file: metalnet_test_ched.tsv
