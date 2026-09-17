@@ -7,7 +7,7 @@
 mamba create -n metalnet-seq -c pytorch -c nvidia -c rapidsai -c conda-forge \
     pytorch=2.4.1 pytorch-cuda=12.1 \
     cudf=24.08 cuml=24.08 cuda-version=12.1 \
-    autogluon==1.1.1 python=3.11
+    autogluon==1.1.1 python=3.11 "setuptools<70"
 
 pip install hydra-core==1.3.2 hydra-optuna-sweeper==1.2.0 hydra-joblib-launcher==1.2.0 biopython==1.84
 ```
