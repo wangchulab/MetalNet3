@@ -1,5 +1,5 @@
 
-# Install
+# Install (~ 20min)
 
 ## python environments
 
@@ -63,4 +63,63 @@ cp "./asset/*.ttf" -t $PACKAGE_PATH/matplotlib/mpl-data/fonts/ttf/
 rm -r "~/.cache/matplotlib/"
 ```
 
-Add `PROJECT_DIR = "/path/to/metalnet-seq"` in `~/.ipython/profile_default/ipython_config.py` as a global variable for use.
+Add `PROJECT_DIR = "/path/to/MetalNet3"` in `~/.ipython/profile_default/ipython_config.py` as a global variable for use.
+
+
+# Usage
+
+## Download model parameters (~ 1hour)
+
+### Protein language models (PLMs)
+
+```bash
+cd data
+python download_models.py
+```
+
+This downloads all PLMs from Hugging Face into `data/models/`, which is referenced by `plm_dir` in the configs. If you already have the PLMs installed, you can symlink the `models` folder to their existing location instead of re-downloading.
+
+### Prediction models
+
+Download the pre-trained prediction models from [Google Drive](https://drive.google.com/drive/folders/1rn1FnCUmitY85UwWKD45Z1-Ou7QEnnsv?usp=share_link) and unpack them to `model/train/models/`. Each task folder contains a model directory named `<model>_<plm>` (e.g. `svm_ankh-base`) and a `preset` symlink pointing to it:
+
+```
+model/train/models/
+├── metal/
+│   ├── preset -> ./svm_ankh-base
+│   └── svm_ankh-base/
+├── metal_group_type/
+│   ├── preset -> ./svm_ankh-base
+│   └── svm_ankh-base/
+└── metal_type/
+    ├── preset -> ./nn_esm2-3B
+    └── nn_esm2-3B/
+```
+
+If the `preset` symlink is missing after unpacking, create it:
+
+```bash
+cd model/train/models/metal && ln -s ./svm_ankh-base preset
+cd model/train/models/metal_group_type && ln -s ./svm_ankh-base preset
+cd model/train/models/metal_type && ln -s ./nn_esm2-3B preset
+```
+
+## Predict a sequence (< 1s)
+
+```bash
+cd model/test/  #pred.sh
+python ../../model/src/predict.py \
+    preset=metal \
+    model_path=../../model/train/models/metal/preset \
+    plm_dir=../../data/models \
+    input_fasta=citx.fasta \
+    output_pred=citx_pred.tsv \
+    device=cuda:0
+```
+The reference output is `citx_pred_ref.tsv`.
+
+`preset` selects the task and must match `model_path`: `metal` → `model/train/models/metal/preset`, `metal_type` → `model/train/models/metal_type/preset`, `metal_group_type` → `model/train/models/metal_group_type/preset`. The output is a TSV file reporting the predicted site positions and scores.
+
+## Reproduce training
+
+All training-related data are hosted on [Zenodo](https://zenodo.org/records/20687409). To reproduce the full training pipeline, download `data.zip` (code and all data). Use `model/train/cmd.sh` as the entry point and adjust the `plms` list to scan as needed.
